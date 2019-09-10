@@ -1,0 +1,2 @@
+# decouvrir
+A simple flask web server to view the IP's and hostnames of my local network. Can be run on a tiny linux box instead of having to log into your router and query for a specific device or memorize them.
