@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home = Decouvrir</title>
+        <meta http-equiv='refresh' content='60'>
+    </head>
+    <body>
+		<table border="1">
+			<tr>
+				<td>Hostname</td>
+				<td>IP</td>
+				<td>Status</td>
+			</tr>
+			{% for hostname, ipstatus in devices.items() %}
+				<tr>
+					<td>{{ hostname }}</td>
+					<td>{{ ipstatus[0] }}</td>
+					<td>{{ ipstatus[1] }}</td>
+				</tr>
+			{% endfor %}
+            <p>
+                Last updated: {{ lastUpdate }}
+            </p>
+		</table>
+    </body>
+</html>
