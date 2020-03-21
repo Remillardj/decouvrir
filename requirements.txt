@@ -1,4 +1,4 @@
 dnspython
 paramiko
 python-nmap
-flaskd
+flask
