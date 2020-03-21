@@ -1,5 +1,4 @@
-Python packages:
-- dnspython
-- paramiko
-- nmap
-- flaskd
+dnspython
+paramiko
+python-nmap
+flaskd
